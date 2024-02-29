@@ -1,0 +1,32 @@
+.container {
+    height: 200px;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid teal;
+}
+.one {
+    width: 10%;
+    height: 15%;
+}
+.two {
+    width: 20%;
+    height: 15%;
+}
+.three {
+    width: 30%;
+    height: 15%;
+}
