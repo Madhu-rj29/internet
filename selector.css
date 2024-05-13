@@ -1,0 +1,12 @@
+h1 { color: red; }
+h2.blue { color: rgb(255, 162, 0); }
+.gray { color: cyan; }
+#golden { color: goldenrod; }
+.container :nth-child(4n) { background: yellow; }
+ul :nth-child(2n+1){
+background:plum 
+padding : 1cm;
+margin:1cm 1cm 1cm 0;
+color : blue;
+margin-top : 2cm
+}

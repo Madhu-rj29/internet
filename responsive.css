@@ -1,0 +1,37 @@
+.option {
+    border: 1px solid rgb(18, 1, 1) ;
+    padding: 0.5em;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1cm;
+}
+@media screen and (max-width: 700px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .option{
+        border-radius: 20% ;
+        font-size:1.5cm ;
+        background:red ;
+        color: azure;
+    }
+}
+@media screen and (max-width: 500px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}
+.option {
+    border-radius: 50%;
+    font-size: 1cm;
+    background: rgb(170, 203, 226);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
