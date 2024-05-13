@@ -1,0 +1,8 @@
+<!DOCTYPE students [
+    <!ELEMENT students (student+)>
+    <!ELEMENT student (enrollment_number, name, email, mobile_number)>
+    <!ELEMENT enrollment_number (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT mobile_number (#PCDATA)>
+]>

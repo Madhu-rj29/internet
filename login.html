@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Get Name</title>
+</head>
+<body>
+    <h1>Login and Get Name</h1>
+    
+    <!-- Login Form -->
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <div id="nameSection" style="display:none;">
+        <h2>Welcome, <span id="name"></span> <span id="surname"></span>!</h2>
+        <button onclick="getMyName()">Get Name</button>
+        <button onclick="postSurname()">Send Surname</button>
+    </div>
+
+    <!-- Script for handling login and retrieving name -->
+    <script src="login.js"></script>
+</body>
+</html>
